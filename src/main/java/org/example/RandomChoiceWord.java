@@ -11,7 +11,7 @@ import java.util.Random;
 public class RandomChoiceWord {
 
     public static char[] getRandomWord(){
-        String filePath = "C:/Users/iv-ni/OneDrive/Рабочий стол/Java/petProject/Hangman/src/main/java/org/example/words.txt";
+        String filePath = "words.txt";
         List<String> words = readLinesFromFile(filePath);
 
         Random randomizer = new Random();
